@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f615e01-5fe3-44f1-9d29-423fa0e27745" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/udp/client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udp/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coroutine/coro.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async.php" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/async.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/server.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="6" />
+          <entry key="php" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="6" />
+          <entry key="PHP" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1461" />
+          <entry key="php" value="1879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1461" />
+          <entry key="PHP" value="1879" />
         </counts>
       </usages-collector>
     </session>
@@ -50,19 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/udp/server.php">
+        <entry file="file://$PROJECT_DIR$/coroutine/coro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/udp/client.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="579">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -80,6 +67,7 @@
         <option value="$PROJECT_DIR$/server.php" />
         <option value="$PROJECT_DIR$/udp/client.php" />
         <option value="$PROJECT_DIR$/udp/server.php" />
+        <option value="$PROJECT_DIR$/coroutine/coro.php" />
       </list>
     </option>
   </component>
@@ -97,11 +85,11 @@
       <path value="$APPLICATION_HOME_DIR$/swoole-ide-helper" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1962" />
+    <option name="y" value="27" />
+    <option name="width" value="1093" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,11 +102,6 @@
             <path>
               <item name="demoSwoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="demoSwoole" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoSwoole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoSwoole" type="462c0819:PsiDirectoryNode" />
-              <item name="udp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,15 +147,16 @@
       <workItem from="1605259287779" duration="3158000" />
       <workItem from="1605270617949" duration="487000" />
       <workItem from="1605315113318" duration="3047000" />
-      <workItem from="1605323370238" duration="5335000" />
+      <workItem from="1605323370238" duration="9099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12027000" />
+    <option name="totallyTimeSpent" value="15791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1962" y="27" width="1093" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22462203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -188,7 +172,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.4485646" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5095694" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5095694" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -249,6 +233,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/udp/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/udp/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -256,10 +247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/udp/server.php">
+    <entry file="file://$PROJECT_DIR$/coroutine/coro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="579">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
